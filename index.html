@@ -1,73 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--charset decides the character set used on the webpage. utf-8 is the standard for western websites-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- The next line is the link to the CSS document-->
-    <link href="css/style.css" rel="stylesheet">
-    <title>Welcome!</title> 
+    <title>Yannick Van Broeck</title>
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="images/favicon.ico">
+    <!--Next lines are for font selection over at Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <!--End of font selection-->
   </head>
 
   <body>
-    <table cellspacing="10">
-      <tr>
-        <td><img src="images/profilepicture-modified.png" alt="Yannick profile picture"></td>
-        <td><h1>Yannick Van Broeck</h1>
-        <p><em>Student <strong><a href="https://en.wikipedia.org/wiki/Web_development" target="_blank">Web Development</a></strong></em></p>
-        <p>I am a student relearning Web Development. I love coffee and learning as much as I can.</p></td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li>TSO Elektromechanica</li>
-        <li>Bachelor Toegepaste Informatica</li>
-        <li>Master Game Development and Artistic Design</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Function</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2014 - 2016</td>
-          <td>Junior Gamedeveloper at Ubisoft.</td>
-        </tr>
-        <tr>
-          <td>2016 - 2017</td>
-          <td>Productie operator at Henco</td>
-        </tr>
-        <tr>
-          <td>2017 - current</td>
-          <td>Productie operate at Umicore Olen</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>Game Design, Logic and Flow</td>
-        <td>&#11088; &#11088; &#11088;</td>
-      </tr>
-      <tr>
-        <td>Programming languages</td>
-        <td>&#11088; &#11088; &#11088;</td>
-      </tr>
-      <tr>
-        <td>Web Development</td>
-        <td>&#11088;</td>
-      </tr>
-    </table>
-
-    <a href="pages/hobbies.html">My Hobbies</a>
-    <a href="pages/contact.html">Contact Me</a>
+    <div class="top-container">
+        <img src="images/cloud.png" alt="cloud-img" class="top-cloud">
+        <h1>I'm Yannick.</h1>
+        <h2>A web designer.</h2>
+        <img src="images/cloud.png" alt="cloud-img" class="bottom-cloud">
+        <img src="images/IMG-1460-modified (1).png" alt="profile-picture">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+            <h2>Hello.</h2>
+            <p>Welcome to my website; I am a freelance web developer looking to provide you with the website and apps of your choice.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="webdesign-img" src="images/web-design.png" alt="webdesign-img">
+                <h3>Web Design</h3>
+                <p>I am currently educating myself in Web design as I wish to hunt a career in Web Development. Having already covered a large chunk of html and css I am looking forward to learn how to create responsive websites.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>Looking for a web designer?</h3>
+            <p>Press the button below!</p>
+            <a class="btn" href="mailto:yvanbroeck@gmail.com">CONTACT ME</a>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://twitter.com/YannickVB1986" target="_blank">Twitter</a>
+        <a class="footer-link" href="index.html">Website</a>
+        <p>©2022 Van Broeck Yannick</p>
+    </div>
   </body>
 </html>
