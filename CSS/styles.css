@@ -39,6 +39,10 @@ h3 {
     color: #11999E;
 }
 
+h4 {
+    text-transform: uppercase;
+}
+
 a {
     color: #11999E;
 }
@@ -75,7 +79,7 @@ a {
 
 .skill-row {
     width: 50%;
-    margin: 50px auto;
+    margin: 75px auto;
     text-align: left;
     line-height: 2;
 }
@@ -85,6 +89,7 @@ a {
     float: left;
     margin-right: 30px;
 }
+
 
 .btn {
     background: #D6E4E5;
@@ -111,4 +116,22 @@ a {
     background-image: -o-linear-gradient(top, #497174, #2d7075);
     background-image: linear-gradient(to bottom, #497174, #2d7075);
     text-decoration: none;
+  }
+
+  .intro {
+    width: 25%;
+    margin: 0 auto 0 auto;
+    line-height: 2;
+  }
+
+  .profile {
+    margin-bottom: 50px;
+  }
+  .already-covered {
+    margin: 0 auto;
+  }
+  .covered-module {
+    width: 200px;
+    margin: 0 auto;
+    display: inline-block;
   }
